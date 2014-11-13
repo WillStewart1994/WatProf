@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <script type="text/javascript">
+    function submitform()
+    {
+        document.forms["test"].submit();
+    }
+    </script>
+    <link rel="stylesheet" title="compact" type="text/css" href="/stylesheets/mystyle.css">
+    <title>WatProf</title>
+    </head>
+    <body>
+
+    <div class = "Title">
+    <span id = "blackTitle">Wat</span><span id = "blueTitle">Prof</span>
+    </div>
+    <br>
+    <br>
+
+    <div class = "description">
+        Select a term and a professor to view the courses that professor is teaching in that term.
+    </div>
+
+    <div class = "container">
+    <form name="form" id = "test" action="/search" method="get">
+
+    <span class = "termBar">
+    <span id = "profText">Select a term:</span><br>
+    <select name = "term" form = "test">
+        <option value="Fall 2014">Fall 2014</option>
+        <option value="Winter 2015">Winter 2015</option>
+        <option value="Spring 2015">Spring 2015</option>
+        <option value="Fall 2015">Fall 2015</option>
+    </select>
+    </span>
+
+
+    <span class = "profBar">
+    <span id = "profText">Select a professor:</span><br>
+
+    <select name = "prof" form = "test">
+    {{content|safe}}
+    </select>
+
+    </span>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+    <a href = "javascript: submitform()" class="demo-pricing demo-pricing-1">Find Classes</a>
+    </form>
+
+
+    </div>
+    </body>
+</html> 

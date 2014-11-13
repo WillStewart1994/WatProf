@@ -1,0 +1,145 @@
+html{
+  background-color:#f7f7f7;
+  background-repeat:repeat
+}
+
+body{
+}
+
+a{
+  color:#3D85C6;
+  text-decoration: none
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+a:active{
+  color:#551A8B
+}
+
+select{
+  float:left;
+}
+
+.Title{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size:52px;
+  text-align:center;
+  padding-top:50px;
+}
+
+.container{
+  width:30%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profBar{
+  margin: 0 auto;
+  float:right;
+  padding-top:50px;
+}
+
+.termBar{
+  margin: 0 auto;
+  float:left;
+  padding-top:50px;
+}
+
+#blueTitle{
+  color:#3D85C6;
+  font-weight:bold;
+}
+
+#blackTitle{
+  color:#333333;
+}
+
+#profText{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size:25px;
+}
+
+.description{
+  text-align:center;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size:25px;
+}
+
+
+
+.searchContainer{
+  width:30%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#courseText{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight:bold;
+  font-size:25px;
+  text-align:left;
+}
+
+#roomText{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size:25px;
+  text-align:left;
+}
+
+#timeText{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size:25px;
+  text-align:right;
+  float:right;
+}
+
+
+
+.demo-pricing {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 14px 26px;
+  font-size: 14px;
+  line-height: 100%;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display:inline-block;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.1s ease-in-out;
+  -webkit-transition: background 0.1s ease-in-out;
+  -moz-transition: background 0.1s ease-in-out;
+  -ms-transition: background 0.1s ease-in-out;
+  -o-transition: background 0.1s ease-in-out;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+.demo-pricing:active {
+  padding-top: 15px;
+        margin-bottom: -1px;
+}
+.demo-pricing, .demo-pricing:hover, .demo-pricing:active {
+  outline: 0 none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.demo-pricing-1 {
+  background-color: #3fb8e8;
+  box-shadow: 0px 3px 0px 0px #3293ba;
+}
+.demo-pricing-1:hover {
+  background-color: #1baae3;
+}
+.demo-pricing-1:active {
+  box-shadow: 0px 1px 0px 0px #3293ba;
+}
