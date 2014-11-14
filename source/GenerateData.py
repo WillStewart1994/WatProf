@@ -81,8 +81,8 @@ for subject in subject_list:
         #print(m.time + ")"),
     #print("")
 
-for i in instructor_list:
-    print i,
-    for j in instructor_mapping[i]:
-        print "(" + j.course + " " + j.location + " " + j.time + ")",
-    print("")
+#for i in instructor_list:
+    #print i,
+    #for j in instructor_mapping[i]:
+        #print "(" + j.course + " " + j.location + " " + j.time + ")",
+    p#rint("")
